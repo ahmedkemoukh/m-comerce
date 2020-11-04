@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.allandroidprojects.ecomsample"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".startup.FrescoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_bag"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service android:name="jade.android.MicroRuntimeService" />
+
+        <activity
+            android:name="com.allandroidprojects.ecomsample.Login.MainActivity2"
+            android:label="@string/app_name" >
+
+    </activity>
+        <activity android:name=".product.AddProduit" android:label="Ajouter Produit">
+
+        </activity>
+
+        <activity android:name=".gui.SettingsActivity" android:label="@string/app_title_settings"></activity>
+        <activity android:name=".options.Resulta_recharch" android:label="Résultat de recherche"></activity>
+        <activity android:name=".product.AddVendeur" android:label="Créer magasin"></activity>
+        <activity android:name=".product.ToutProduit" android:label="Produits"></activity>
+        <activity android:name=".gui.MainActivity1" android:label="@string/app_title_settings" ><intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter></activity>
+        <activity android:name=".gui.ChatActivity" android:label="@string/app_title_chat"></activity>
+        <activity android:name=".gui.ParticipantsActivity" android:label="@string/app_title_participants"></activity>
+        <activity android:name=".product.List_Vend" android:label="List vos commandes"></activity>
+        <activity android:name=".product.List_Achat" android:label="List vos commandes"></activity>
+        <activity android:name=".startup.SplashActivity">
+
+
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".options.SearchResultsActivity"/>
+        </activity>
+        <activity
+            android:name=".startup.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".startup.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".fragments.ViewPagerActivity"/>
+        <activity android:name=".product.Payment" android:label="Commander"/>
+        <activity android:name=".product.ItemDetailsActivity" android:label="Description de produit">
+    </activity>
+        <activity android:name=".product.ActiveCommand" android:label="Commande">
+        </activity>
+        <activity
+            android:name=".options.WishlistActivity"
+            android:label="@string/my_wishlist">
+        </activity>
+        <activity
+            android:name=".options.CartListActivity"
+            android:label="@string/my_cart">
+        </activity>
+        <activity android:label="Recherche" android:name=".options.SearchResultActivity">
+
+            <!-- to identify this activity as "searchable.xml" -->
+
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:label="Notification" android:name=".miscellaneous.EmptyActivity">
+        </activity>
+
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>

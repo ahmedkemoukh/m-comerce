@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/parent123"
+android:paddingHorizontal="20dp"
+
+    android:paddingTop="50dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="4"
+            android:visibility="gone" />
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/white_greyish" />
+
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/white_greyish" />
+
+
+    <EditText
+        android:id="@+id/nomproduit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+android:layout_marginVertical="10dp"
+
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="Nom"
+
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+
+        android:textSize="16sp" >
+        <requestFocus></requestFocus>
+    </EditText>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/white_greyish" />
+
+    <EditText
+        android:id="@+id/marqText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+
+        android:layout_marginVertical="10dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="Marque"
+
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+
+        android:textSize="16sp" >
+        <requestFocus></requestFocus>
+    </EditText>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/white_greyish" />
+
+    <EditText
+        android:id="@+id/catg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+
+
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="Categori"
+        android:layout_marginVertical="10dp"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+
+        android:textSize="16sp" >
+        <requestFocus></requestFocus>
+    </EditText>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/white_greyish" />
+
+
+    <EditText
+        android:id="@+id/prixtext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+
+
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="Prix Max"
+
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:layout_marginVertical="10dp"
+        android:textSize="16sp" >
+        <requestFocus></requestFocus>
+    </EditText>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/white_greyish" />
+
+
+
+
+    <Button
+        android:id="@+id/rechButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/loginbutton_selector"
+        android:padding="3dp"
+        android:text="Recherche"
+        android:textColor="#f0ad4e"
+        android:textSize="17sp"
+        android:layout_marginVertical="30dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

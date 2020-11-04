@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="20dp"
+
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linear_formul"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:visibility="visible">
+
+
+
+
+
+        <EditText
+        android:id="@+id/fullName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="Marque"
+            android:layout_marginVertical="10dp"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+
+        android:textSize="16sp"
+
+        >
+
+        <requestFocus></requestFocus>
+    </EditText>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white_greyish" />
+
+
+        <EditText
+            android:id="@+id/catg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginVertical="10dp"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="categori"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+
+            android:textSize="16sp"
+
+            >
+
+            <requestFocus></requestFocus>
+        </EditText>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white_greyish" />
+
+
+        <EditText
+            android:id="@+id/prenom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginVertical="10dp"
+
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Nom"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+
+            android:textSize="16sp"
+
+            >
+            <requestFocus></requestFocus>
+        </EditText>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white_greyish" />
+
+        <EditText
+            android:id="@+id/userEmailId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginVertical="10dp"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Prix"
+            android:inputType="number"
+            android:padding="10dp"
+
+            android:singleLine="true"
+            android:textColor="@color/black"
+
+            android:textSize="16sp"
+
+            >
+            <requestFocus></requestFocus>
+        </EditText>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white_greyish" />
+
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white_greyish" />
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginVertical="10dp"
+
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Quantite"
+            android:inputType="number"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+
+            android:textSize="16sp"
+
+            >
+            <requestFocus></requestFocus>
+        </EditText>
+
+        <EditText
+            android:id="@+id/mobileNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginVertical="10dp"
+
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Description"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+
+            android:textSize="16sp"
+
+            >
+            <requestFocus></requestFocus>
+        </EditText>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    >
+        <Button
+            android:id="@+id/buttonLoadPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/loginbutton_selector"
+            android:padding="3dp"
+
+            android:text=" Ajouter images"
+            android:textColor="#f0ad4e"
+            android:textSize="17sp"
+            android:textStyle="bold"
+
+            />
+
+
+</LinearLayout>
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/loginbutton_selector"
+            android:padding="3dp"
+            android:text="ajouter"
+            android:textColor="#f0ad4e"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible">
+
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/recyclerview"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:scrollbars="horizontal"
+            android:visibility="visible"
+
+            app:layout_constraintBottom_toTopOf="@+id/button_V"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_V"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/loginbutton_selector"
+            android:padding="3dp"
+            android:text="return"
+            android:textColor="@color/background_color"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recyclerview"
+            app:layout_constraintVertical_bias="0.968" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</RelativeLayout>
